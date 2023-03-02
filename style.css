@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+    background-color: rgb(255, 246, 236);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d0dfbe;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(76, 47, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #bba6a1;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 165, 165);
+}
+
+.container {
+    position: relative;
+}
+
+article {
+    position: absolute;
+    width: 500px;
+    top: 10%;
+    bottom: 50%;
+    left: 20px;
+    color: rgb(255, 255, 255);
+    background-color:#e7d0c9d4;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 120%;
+}
+
+p {
+    margin: 0 auto;
+}
+
+main {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 50%;
+    float:  right;
+    padding: 10%;
+    box-sizing: border-box;
+}
+  img {
+    float: right;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    line-height: 1.8;
+    font-size: 30px;
+}
+main {
+    width: 48%;
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 50%;
+    float:  left;
+    padding: 10%;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 30px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+h3 {
+    line-height: 1.8;
+    font-size: 30px;
+}
+
+h4 {
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 3px;
+    line-height: 1.5;
+}
+
+h5 {
+    line-height: 1.8;
+    font-size: 20px;
+    border: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    float: left;
+}
+
+main {
+    float: left;
+}
+
+aside {
+    margin-top: 20px;
+}
